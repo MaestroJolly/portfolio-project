@@ -1,0 +1,277 @@
+/*
+Author: Jolaoso Yusuf (@MaestroJolly)
+
+Selectors Includes : html, body, main, header, hr, img, span, a, a:hover,
+footer.
+
+Classes: container, inner_header, box1, box2, color_code,
+color_display, color_title, logo, profile_hero, profile_id,
+profile_name, profile_title, profile_img, social_icons, tw, tw:hover,
+md, md:hover, git, git:hover, work_title, skill_title, work_box1, work_box2,
+work_box3, work_box1:hover, work_box2:hover, work_box3:hover, skill_box1,
+skill_box2, skill_box3, skill_box1:hover, skill_box2:hover, skill_box3:hover
+
+
+
+
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+}
+
+main { 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner_header {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.box1 {
+    width: 100%;
+}
+
+.box2 {
+    width: 100%;
+}
+
+.color_code {
+    text-align: center;
+}
+
+.color_display {
+    display: inline-block;
+    width: 8.5%;
+    padding: 0px 50px;
+}
+
+.color_title {
+    color: #7d97ad;
+}
+
+hr {
+    width: 100%;
+    background-color: #7d97ad;
+}
+
+.logo {
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+
+img {
+    width: 100%;
+}
+
+.profile_hero {
+    width: 100%;
+}
+
+.profile_id {
+    float: right;
+}
+
+.profile_img {
+    width: 80px;
+    height: 80px;
+    padding-left: 90px;
+}
+
+.profile_name {
+    font-weight: normal;
+}
+
+.profile_title {
+    text-align: right;
+}
+
+.socialicons{
+    float: right;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.tw{
+    color: #933ec5;
+    padding-right: 10px;
+}
+
+.tw:hover{
+    color: #7d97ad;
+}
+
+.md{
+    color: #933ec5;
+    padding-right: 10px;
+}
+
+.md:hover{
+    color: #7d97ad;
+}
+
+.git{
+    color: #933ec5;
+    padding-right: 10px;
+}
+
+.git:hover{
+    color: #7d97ad;
+}
+
+span {
+    text-align: center;
+}
+
+.work_title, .skill_title {
+    color: #7d97ad;
+    width: 100%;
+}
+
+.work_box1, .work_box2, .work_box3 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+skills {
+    margin-left: 100%;
+    padding-bottom: 20px;
+}
+
+.skill_box1, .skill_box2, .skill_box3 {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: #933ec5;
+    border: #933ec5 1px solid;
+}
+
+.skill_box1:hover, .skill_box2:hover, .skill_box3:hover {
+    color: #7d97ad;
+    border: #7d97ad 1px solid;
+}
+
+.work_name {
+    color: #2d3c49;
+}
+
+a {
+    text-decoration: none;
+    width: 48px;
+    height: 48px;
+    padding: 1em;
+    color: #933ec5;
+}
+
+a:hover {
+    color: #7d97ad;
+}
+
+footer {
+    border-top: #e7e7e7 1px solid;
+    padding: 20px;
+}
+
+/*  Media Query for Galaxy Nexus and devices width viewport 768px */
+@media screen and (min-width: 768px){
+    .container {
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .work_box1, .work_box2, .work_box3 {
+        width: 50%;
+        padding-right: 2%;
+    }
+}
+
+/*  Media Query for Ipad and devices width viewport 1024px and above */
+@media screen and (min-width: 1024px){
+    header {
+        width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .inner_header{
+        width: 75%;
+        margin-left: 25%;
+    }
+
+    .profile_img {
+        width: 100px;
+        height: 100px;
+        padding-left: 180px;
+    }
+
+    .container {
+        width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .work_title, .skill_title {
+        width: 75%;
+        margin-left: 25%;
+        text-align: center;
+    }
+
+    a {
+        font-size: 14px;
+    }
+
+    .color_display {
+        width: 25%;
+        display: block;
+    }
+
+    .box1 {
+        width: 25%;
+    }
+
+    .box2 {
+        width: 75%;
+    }
+
+    .work_box1, .work_box2, .work_box3 {
+        width: 23%;
+        padding-right: 10px;
+    }
+
+    .work_box1:hover, .work_box2:hover, .work_box3:hover {
+        width: 23.5%;
+        transition: 0.3s ease-in-out;
+    }
+
+    .work_box1 {
+        margin-left: 25%;
+    }
+
+    .skill_box1, .skill_box2, .skill_box3 {
+        width: 22%;
+        border: #e7e7e7 1px solid;
+    }
+
+    .skill_box1 {
+        margin-left: 25%;
+    }
+}
