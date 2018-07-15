@@ -18,4 +18,4 @@ This project is a personal project.
 
 ## Link
 
-Click Here To Visit Project Page for Preview : https://maestrojolly.github.io/Pixel-Art-M
+Click Here To Visit Project Page for Preview : https://maestrojolly.github.io/portfolio-project/

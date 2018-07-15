@@ -55,11 +55,14 @@ main {
 .color_code {
     text-align: center;
 }
+.color_img {
+    padding-left: 5px;
+}
 
 .color_display {
     display: inline-block;
     width: 8.5%;
-    padding: 0px 50px;
+    padding: 0px 30px;
 }
 
 .color_title {
@@ -199,8 +202,11 @@ footer {
     }
 
     .work_box1, .work_box2, .work_box3 {
-        width: 50%;
+        width: 48%;
         padding-right: 2%;
+    }
+    .skill_box1, .skill_box2, .skill_box3 {
+        width: 47%;
     }
 }
 
